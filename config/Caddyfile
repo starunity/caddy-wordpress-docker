@@ -1,0 +1,7 @@
+<YOUR_SITE_NAME> {
+    tls <YOUR_EMAIL>
+    encode gzip
+    root * /var/www/html
+    php_fastcgi wordpress:9000
+    file_server
+}
